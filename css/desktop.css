@@ -1,0 +1,815 @@
+html{
+  box-sizing: border-box;
+  width:100vw;
+  height:225vw;
+  background: -webkit-linear-gradient(#5D340F,#E48D3F);
+  background: -o-linear-gradient(#5D340F,#E48D3F);
+  background: -moz-linear-gradient(#5D340F,#E48D3F);
+  background: linear-gradient(#5D340F,#E48D3F);
+  margin:auto;
+}
+
+.top{
+  position:absolute;
+  height: 47.630vw;
+  width:94.45vw;
+  z-index: 0;
+}
+.title{
+  position:absolute;
+  top:10vw;
+  left:2.708vw;
+  height: 47.630vw;
+  width:94.45vw;
+  z-index: 0;
+
+}
+
+.circle{
+  position:absolute;
+  left:89vw;
+  top:27vw;
+  height: auto;
+  max-width: 100%;
+  line-height: 2.3vw;
+}
+
+.Login{
+  position:absolute;
+  right:25.645vw;
+  top:3.229vw;
+  color:#351B00;
+  font-family:Tahoma;
+  font-size: 3.646vw;
+  z-index: 1;
+}
+.square1{
+  position:absolute;
+  right:21.51vw;
+  top:2.917vw;
+  background-color:#BD8757;
+  width:16.354vw;
+  height:5.208vw;
+  z-index: 0;
+}
+.Search{
+  position:absolute;
+  right:5.990vw;
+  top:3.229vw;
+  color:#351B00;
+  font-family:Tahoma;
+  font-size: 3.646vw;
+  z-index: 1;
+}
+.square2{
+  position:absolute;
+  right:3.281vw;
+  top:2.917vw;
+  background-color:#BD8757;
+  width:16.354vw;
+  height:5.208vw;
+  z-index: 0;
+}
+.word{
+  position:absolute;
+  left:5.52vw;
+  top:47.083vw;
+  color:#F2D7BC;
+  font-family:Tahoma;
+  font-size: 5.729vw;
+  z-index: 1;
+}
+
+.box1{
+  position:absolute;
+  left:2.708vw;
+  top:57.604vw;
+  background-color:#BD8757;
+  border-style:solid;
+  border-color:#4E2704;
+  width:19.063vw;
+  height:10vw;
+  
+}
+
+.Mammal{
+  position:absolute;
+  left:4.375vw;
+  top:60.104vw;
+  color:#351B00;
+  font-family:Tahoma;
+  font-size: 4.166vw;
+  z-index: 1;
+}
+  .box2{
+    position:absolute;
+    left:21.510vw;
+    top:57.604vw;
+    background-color:#BD8757;
+    border-style:solid;
+    border-color:#4E2704;
+    width:19.063vw;
+    height:10vw;
+    
+  }
+  .Birds{
+    position:absolute;
+    left:26.77vw;
+    top:60.104vw;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 1;
+  }
+  .box3{
+    position:absolute;
+    left:40.364vw;
+    top:57.604vw;
+    background-color:#BD8757;
+    border-style:solid;
+    border-color:#4E2704;
+    width:19.063vw;
+    height:10vw;
+    
+  }
+  .Reptile{
+    position:absolute;
+    left:43.385vw;
+    top:60.104vw;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 1;
+  }
+  .box4{
+    position:absolute;
+    left:59.218vw;
+    top:57.604vw;
+    background-color:#BD8757;
+    border-style:solid;
+    border-color:#4E2704;
+    width:19.063vw;
+    height:10vw;
+    
+  }
+  .Insect{
+    position:absolute;
+    left:63.125vw;
+    top:60.104vw;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 1;
+  }
+  .box5{
+    position:absolute;
+    left:78.072vw;
+    top:57.604vw;
+    background-color:#BD8757;
+    border-style:solid;
+    border-color:#4E2704;
+    width:19.063vw;
+    height:10vw;
+    
+  }
+  .More{
+    position:absolute;
+    left:82.864vw;
+    top:60.104vw;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 1;
+  }
+  .square3{
+    position:absolute;
+    left:2.864vw;
+    top:75.104vw;
+    background-color:#814C1C;
+    width:93.854vw;
+    height:27.968vw;
+    padding-left:6.875vw;
+    padding-top:7vw;
+    z-index: 0;
+    overflow:hidden;
+   
+  }
+  .square31{
+    position:absolute;
+    background-color:#BD8757;
+    width:24.279vw;
+    height:6.458vw;
+    z-index: 2;
+    margin-top:-7vw;
+    margin-left:-6.9vw;
+  }
+  .M{
+    position:absolute;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 2;
+    margin-top:-6.5vw;
+    margin-left:-3vw;
+   
+  }
+  .more{
+    position:absolute;
+    color:#D1AF8D;
+    font-family:Tahoma;
+    font-size: 2.760vw;
+    z-index: 2;
+    margin-top:-6vw;
+    margin-left:73vw;
+  }
+.row{
+  position:absolute;
+  margin-top:3vw;
+  margin-left:-1.5vw;
+  width:83vw;
+  height:auto;
+ 
+ 
+}
+.arrowl{
+  position:absolute;
+  margin-left:-3.5vw;
+  margin-top:2.8vw;
+  width:1.848vw;
+  height:8.905vw;
+}
+.arrowr{
+  position:absolute;
+  margin-left:84.5vw;
+  margin-top:2.8vw;
+  width:1.848vw;
+  height:8.905vw;
+}
+
+
+  .square4{
+    position:absolute;
+    left:2.864vw;
+    top:107.604vw;
+    background-color:#814C1C;
+    width:93.854vw;
+    height:27.968vw;
+    padding-left:6.875vw;
+    padding-top:7vw;
+  }
+  .square41{
+    position:absolute;
+    background-color:#BD8757;
+    width:24.279vw;
+    height:6.458vw;
+    z-index: 2;
+    margin-top:-7vw;
+    margin-left:-6.9vw;
+  }
+  .R{
+    position:absolute;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 2;
+    margin-top:-6.5vw;
+    margin-left:-3vw;
+  }
+  .more{
+    position:absolute;
+    color:#D1AF8D;
+    font-family:Tahoma;
+    font-size: 2.760vw;
+    z-index: 2;
+
+    margin-top:-4vw;
+    margin-left:73vw;
+  }
+  .square5{
+    position:absolute;
+    left:2.864vw;
+    top:140.572vw;
+    background-color:#814C1C;
+    width:93.854vw;
+    height:27.968vw;
+    padding-left:6.875vw;
+    padding-top:7vw;
+  }
+  .square51{
+    position:absolute;
+    background-color:#BD8757;
+    width:24.279vw;
+    height:6.458vw;
+    z-index: 2;
+    margin-top:-7vw;
+    margin-left:-6.9vw;
+  }
+  .B{
+    position:absolute;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 2;
+    margin-top:-6.5vw;
+    margin-left:-3vw;
+  }
+  .more{
+    position:absolute;
+    color:#D1AF8D;
+    font-family:Tahoma;
+    font-size: 2.760vw;
+    z-index: 2;
+    margin-top:-4vw;
+    margin-left:73vw;
+  }
+  .square6{
+    position:absolute;
+    left:2.864vw;
+    top:173.177vw;
+    background-color:#814C1C;
+    width:93.854vw;
+    height:27.968vw;
+    padding-left:6.875vw;
+    padding-top:7vw;
+  }
+  .square61{
+    position:absolute;
+    background-color:#BD8757;
+    width:24.279vw;
+    height:6.458vw;
+    z-index: 2;
+    margin-top:-7vw;
+    margin-left:-6.9vw;
+  }
+  .I{
+    position:absolute;
+    color:#351B00;
+    font-family:Tahoma;
+    font-size: 4.166vw;
+    z-index: 2;
+    margin-top:-6.5vw;
+    margin-left:-3vw;
+  }
+  .more{
+    position:absolute;
+    color:#D1AF8D;
+    font-family:Tahoma;
+    font-size: 2.760vw;
+    z-index: 2;
+    margin-top:-4vw;
+    margin-left:73vw;
+  }
+  .footer{
+    position:absolute;
+    left:0vw;
+    top:205.885vw;
+    background-color:#54381D;
+    width:100vw;
+    height:19.114vw;
+    
+  }
+  .buttom1{
+    position:absolute;
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 1.822vw;
+    z-index: 2;
+    margin-left:5.8vw;
+    margin-top:6vw;
+  }
+  .links{
+    position:absolute;
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 2.604vw;
+    z-index: 2;
+    margin-left:10vw;
+    margin-top:2vw;
+  }
+  .About{
+    position:absolute;
+    width:10.729vw;
+    height:2.343vw;
+    
+  }
+  .Join{
+    position:absolute;
+    width:10.729vw;
+    height:2.343vw;
+    margin-top:3vw;
+  }
+  .Tools{
+    position:absolute;
+    width:10.729vw;
+    height:2.343vw;
+    margin-top:6vw;
+  }
+  .Community{
+    position:absolute;
+    width:10.729vw;
+    height:2.343vw;
+    margin-top:9vw;
+  }
+  .buttom2{
+    position:absolute;
+    width:20.20vw;
+    
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 1.822vw;
+    z-index: 2;
+    margin-left:13.8vw;
+    margin-top:-5.5vw;
+  }
+  .help{
+    position:absolute;
+    width:18.333vw;
+    height:3.125vw;
+    top:11vw;
+  }
+  .Support{
+    position:absolute;
+    width:20.364vw;
+    height:3.020vw;    
+    top:11vw;
+  }
+  .teams{
+    position:absolute;
+    margin-top:2.8vw;
+    width:20.364vw;
+    height:3.020vw;
+    top:11vw;
+  }
+  .Us{
+    position:absolute;
+    margin-top:5.6vw;
+    width:20.364vw;
+    height:3.020vw;
+    top:11.3vw;
+  }
+  .Email{
+    position:absolute;
+    margin-top:8.4vw;
+    width:20.364vw;
+    height:3.020vw;
+    top:11.6vw;
+  }
+  .company{
+    position:absolute;
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 2.604vw;
+    z-index: 2;
+    margin-left:18vw;
+    margin-top:-9.5vw;
+  }
+  .buttom3{
+    position:absolute;
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 1.822vw;
+    z-index: 2;
+    margin-left:18.9vw;
+    margin-top:-11vw;
+  }
+  .help{
+    position:absolute;
+    color:#CDB297;
+    font-family:Tahoma;
+    font-size: 2.604vw;
+    z-index: 2;
+    margin-left:23vw;
+    margin-top:-14.8vw;
+  }
+  .tw{
+    position:absolute;
+    z-index: 2;
+    left:52vw;
+    top:-3vw;
+  }
+  .gg{
+    position:absolute;
+    z-index: 2;
+    left:59vw;
+    top:-3vw;
+  }
+  .fb{
+    position:absolute;
+    z-index: 2;
+    left:66vw;
+    top:-3vw;
+  }
+ 
+  @media only screen and (min-width: 321px) and (max-width: 1000px) {
+    .row{
+      position:absolute;
+      height:auto;
+      width:90%;
+    }
+    .col{
+      width:16vw !important;
+      height:16vw !important;
+    }
+    .arrowl{
+      position:absolute;
+      margin-left:-3vw;
+      margin-top:4vw;
+      width:1.848vw;
+      height:8.905;
+    }
+    .arrowr{
+      position:absolute;
+      margin-left:84.5vw;
+      margin-top:4vw;
+      width:1.848vw;
+      height:8.905vw;
+    }
+    .circle{
+      position:absolute;
+      left:85vw;
+      top:24.5vw;
+      max-height: auto;
+      max-width: 80%;
+      line-height: 3vw;
+    }
+    .c1{
+      width:2vw;
+      height:2vw;
+    }
+    .c2{
+      width:2vw;
+      height:2vw;
+    }
+    .c3{
+      width:2vw;
+      height:2vw;
+    }
+    .c4{
+      width:2vw;
+      height:2vw;
+    }
+    .c5{
+      width:2vw;
+      height:2vw;
+    }
+    .c6{
+      width:2vw;
+      height:2vw;
+    }
+    .links{
+      left:-4.5vw;
+      margin-top:2vw;
+
+    }
+    .buttom1{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      margin-left:-2.7vw;
+      margin-top:6vw;
+    }
+    .company{
+      margin-left:21.9vw;
+    }
+    .buttom2{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      width: 90%;
+      margin-left:13.9vw;
+      margin-top:-5.5vw;
+    }
+    .buttom3{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      margin-left:19.7vw;
+      margin-top:-19vw;
+    }
+    .help{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 2.604vw;
+      z-index: 2;
+      margin-left:28vw;
+      margin-top:-22.8vw;
+      width:18.333vw;
+      height:3.125vw;
+      top:18.9vw;
+    }
+    .Support{
+      position:absolute;
+      width:20.364vw;
+      height:3.020vw;    
+      top:18.8vw;
+    }
+    .teams{
+      position:absolute;
+      margin-top:2.8vw;
+      width:20.364vw;
+      height:3.020vw;
+      top:18.9vw;
+    }
+    .Us{
+      position:absolute;
+      margin-top:5.6vw;
+      width:20.364vw;
+      height:3.020vw;
+      top:18.9vw;
+    }
+    .Email{
+      position:absolute;
+      margin-top:8.4vw;
+      width:20.364vw;
+      height:3.020vw;
+      top:18.9vw;
+    }
+    .tw{
+      position:absolute;
+      z-index: 2;
+      left:60vw;
+      top:-3vw;
+      max-width:6vw;
+      max-height:6vw;
+
+    }
+    .gg{
+      position:absolute;
+      z-index: 2;
+      left:68vw;
+      top:-3vw;
+      max-width:6vw;
+      max-height:6vw;
+    }
+    .fb{
+      position:absolute;
+      z-index: 2;
+      left:76vw;
+      top:-3vw;
+      max-width:6vw;
+      max-height:6vw;
+    }
+   
+  }
+  @media only screen and (min-width: 0px) and (max-width: 400px){
+    .row{
+      position:absolute;
+      height:auto;
+      width:90%;
+    }
+    .col{
+      width:3.385vw !important;
+      height:3.385vw;
+    }
+    .circle{
+      position:absolute;
+      left:72vw;
+      top:23vw;
+      max-height: auto;
+      max-width: 80%;
+      line-height: 3.5vw;
+    }
+    .c1{
+      width:2vw;
+      height:2vw;
+    }
+    .c2{
+      width:2vw;
+      height:2vw;
+    }
+    .c3{
+      width:2vw;
+      height:2vw;
+    }
+    .c4{
+      width:2vw;
+      height:2vw;
+    }
+    .c5{
+      width:2vw;
+      height:2vw;
+    }
+    .c6{
+      width:2vw;
+      height:2vw;
+    }
+
+    .arrowl{
+      position:absolute;
+      margin-left:-3vw;
+      margin-top:4vw;
+      width:1.848vw;
+      height:8.905;
+    }
+    .arrowr{
+      position:absolute;
+      margin-left:84.5vw;
+      margin-top:4vw;
+      width:1.848vw;
+      height:8.905;
+    }
+
+    .buttom1{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      left:-11.8vw;
+      margin-top:6vw;
+      max-width: 50%;
+      max-height:auto;
+    }
+    .company{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 2.604vw;
+      z-index: 2;
+      left:19vw;
+      top:5.5vw;
+    }
+    .Tools{
+      position:absolute;
+      width:2.552vw;
+      height:0.572vw;
+      white-space:nowrap;
+    }
+    .buttom2{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      width: 90%;
+      left:7vw;
+      margin-top:-10vw;
+      line-height:6vw;
+    
+    }
+    .buttom3{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 1.822vw;
+      z-index: 2;
+      margin-left:14.5vw;
+      margin-top:-19vw;
+      line-height:7vw;
+     
+    }
+    
+    .help{
+      position:absolute;
+      color:#CDB297;
+      font-family:Tahoma;
+      font-size: 2.604vw;
+      z-index: 2;
+      left:16.5vw;
+      margin-top:-22.8vw;
+      width:3.489vw;
+      height:0.625vw;
+      top:20vw;
+      white-space:nowrap;
+    }
+    .teams{
+      position:absolute;
+      margin-top:2.8vw;
+      width:4.635vw;
+      height:0.625vw;
+      top:19vw;
+      white-space:nowrap;
+      }
+      .tw{
+        position:absolute;
+        z-index: 2;
+        left:68vw;
+        top:-3vw;
+        max-width:5vw;
+        max-height:5vw;
+  
+      }
+      .gg{
+        position:absolute;
+        z-index: 2;
+        left:75vw;
+        top:-3vw;
+        max-width:5vw;
+        max-height:5vw;
+      }
+      .fb{
+        position:absolute;
+        z-index: 2;
+        left:82vw;
+        top:-3vw;
+        max-width:5vw;
+        max-height:5vw;
+      }
+}
